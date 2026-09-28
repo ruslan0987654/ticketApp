@@ -25,11 +25,9 @@ namespace ticketApp
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            string a = comboBox1.Text;
-            string b = comboBox2.Text;
+        { 
 
-            richTextBox1.Text = a + " " + b + " " + tarix.Text + " " + saat.Text + " " + " " + yer.Text + " " + namesurname.Text +
+            richTextBox1.Text = comboBox1.Text + " " + comboBox2.Text + " " + tarix.Text + " " + saat.Text + " " + " " + yer.Text + " " + namesurname.Text +
              " " + fin.Text + " " + telefon.Text + " " + email.Text;
         }
 
